@@ -1,0 +1,126 @@
+name: dailyflowy
+version: 1.1.5+16
+publish_to: none
+description: 日程App
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+
+  syncfusion_flutter_datepicker: 25.2.4
+  syncfusion_flutter_calendar: 25.2.4
+  syncfusion_localizations: 25.2.4
+  date_format: ^2.0.0
+  google_fonts: ^4.0.4
+  flutter_staggered_grid_view: 0.6.2
+  lunar_calendar_converter_new: 2.0.0
+  intl: ^0.18.1
+  isar: 3.0.5
+  file_picker: ^8.0.5
+  super_clipboard: ^0.8.17
+  isar_flutter_libs: ^3.0.5
+  animated_tree_view: 2.2.0
+  flutter_js: ^0.8.0
+  flutter_acrylic: 1.1.1
+  url_launcher: 6.3.0
+  dio: ^4.0.6
+  shared_preferences: ^2.1.0
+  cached_network_image: ^3.3.0
+  html: 0.15.4
+  highlight: ^0.7.0
+  window_manager: ^0.3.8
+  path_provider: ^2.1.1
+  code_editor: ^2.1.0
+  appflowy_editor: ^2.4.0       
+  widget_kit_plugin: ^0.1.1
+  tuple: ^2.0.0
+  dartz: ^0.10.1
+  flutter_fancy_tree_view: ^1.6.0
+  macos_window_utils: 1.1.1 #高版本会导致界面无响应
+  package_info_plus: ^8.0.0
+  fluent_ui: ^4.8.6
+  system_theme: ^2.3.1
+  tiny_logger: ^0.0.1+1
+  uuid: ^4.4.0
+  string_validator: ^1.0.2 
+  flutter_chat_types: ^3.6.2
+  flutter_link_previewer: ^3.2.2
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+  isar_generator: ^3.0.5
+  build_runner: any
+  msix: ^3.16.7
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - images/
+    - assets/images/editor/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/nunito/Nunito-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/nunito/Nunito-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/nunito/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/fonts/nunito/Nunito-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/nunito/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/nunito/Nunito-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/nunito/Nunito-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/nunito/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/nunito/Nunito-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/nunito/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/nunito/Nunito-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/nunito/Nunito-Black.ttf
+          weight: 900
+        - asset: assets/fonts/nunito/Nunito-BlackItalic.ttf
+          weight: 900
+          style: italic
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins/Poppins-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-Black.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 900
+

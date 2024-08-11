@@ -1,0 +1,17 @@
+{
+  "name": "dailyflowy",
+  "version": "1.0.0",
+  "description": "命令行工具",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_win": "dart run msix:create",
+    "build_mac": "flutter build macos && hdiutil create -volname \"Dailyflowy\" -srcfolder build/macos/Build/Products/Release/Dailyflowy.app -ov -format UDZO  build/Dailyflowy.dmg"
+  },
+  "author": "rand.zhu",
+  "license": "ISC"
+}
